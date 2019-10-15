@@ -126,6 +126,14 @@ nav {
     width: 2rem;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .nav-link {
+        font-size: 1.4rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
 @media screen and (max-width: 768px) {
     .hamburger {
         display:flex ;
@@ -147,6 +155,7 @@ nav {
     }
     .nav-link {
         color: #fff;
+        font-size: 3rem;
     }
     .nav-list.active {
         top: 0;
