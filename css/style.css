@@ -26,12 +26,12 @@ header {
 }
 
 .container {
+    position: relative;
     width: 100%;
     max-width: 120rem;
     margin: 0 auto;
     padding: 0 2rem;
     min-height: 100%;
-
 }
 
 main {
@@ -92,21 +92,38 @@ footer {
 
 .social-icons {
     display: flex;
-    width: 15rem;
+    width: 20rem;
+    height: 3rem;
+    padding-left: 1rem;
     list-style: none;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    /* background-color: red; */
 }
 
-.social-icon img {
-    width: 2.5rem;
+li.social-icon {
+    font-size: .5rem;
+
+}
+
+.social-icon a:visited {
+    color: inherit;
+}
+
+.social-icon:hover {
+    font-size: .6rem;
+    transition: .3s cubic-bezier(.07,.04,.09,1.68);
 }
 
 footer h4 {
     font-size: 1rem;
+    /* display: block; */
     position: absolute;
     bottom: 0px;
-    margin: 0 auto;
+    /* left: 50%; */
+    width: 100%;
+    text-align: center;
+    /* margin-left: -50%; */
     padding-bottom: 1rem;
 }
 
