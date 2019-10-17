@@ -220,6 +220,10 @@ footer h4 {
     .nav-item::before {
         background-color: #fff;
     }
+    .social-icons {
+        width: 100%;
+        justify-content: center;
+    }
     footer {
         padding-top: .6rem;
         height: 6rem;
