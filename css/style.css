@@ -106,7 +106,7 @@ li.social-icon {
 
 }
 
-.social-icon a:visited {
+a:visited {
     color: inherit;
 }
 
@@ -126,6 +126,7 @@ footer h4 {
     /* margin-left: -50%; */
     padding-bottom: 1rem;
 }
+
 
 /* MENU */
 
